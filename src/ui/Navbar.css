@@ -1,0 +1,26 @@
+.navbar {
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(7, 83, 154);  
+    padding-left: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.searchbar {
+    margin-left: auto;
+    margin-right: 15px;
+    border: 2px solid rgb(199, 216, 239); 
+    border-radius: 5px;
+    width: 25%;
+    background-color: rgb(227, 237, 250);  
+    color: rgb(7, 83, 154);  
+    padding: 5px 10px; 
+}
+
+.searchbar::placeholder {
+    color: rgb(150, 150, 150); 
+} 
