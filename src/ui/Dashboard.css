@@ -1,0 +1,35 @@
+.dashboard{
+    height: 93vh;
+    background-color: rgb(227, 237, 250);  
+}
+
+.top_div{
+    
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    /* background-color: aqua; */
+}
+ 
+
+.span
+{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.left_div {
+    width: 100%; /* Use full width */
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space out span and button */
+    align-items: center; /* Center vertically */
+}
+
+.addWidgetBtn {
+    height: 30px;
+    border: 1.5px solid rgb(166, 166, 166); 
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+}
