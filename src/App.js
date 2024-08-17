@@ -3,7 +3,7 @@ import Navbar from "./ui/Navbar";
 import RightSideBar from "./ui/RightSideBar";
 import './App.css';
 import { useState } from "react";
-import Trial from "./ui/Trial";
+ 
 
 function App() {
   const [Open, setOpen] = useState(false);
@@ -23,7 +23,7 @@ function App() {
       <div>
         <RightSideBar Open={Open} HandleOpen={HandleOpen} />
       </div>
-      <Trial/>
+     
     </div>
   );
 }

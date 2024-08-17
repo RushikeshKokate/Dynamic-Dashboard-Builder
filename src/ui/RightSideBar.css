@@ -124,10 +124,10 @@
   border-radius: 5px;
 }
 
-/* Media query for mobile devices */
+ 
 @media (max-width: 768px) {
   .side-bar {
-    width: 100%; /* Sidebar takes full width on mobile */
+    width: 100%;  
   }
 
   .close-btn {

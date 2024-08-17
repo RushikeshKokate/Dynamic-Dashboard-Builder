@@ -8,11 +8,11 @@ const RightSideBar = ({ Open, HandleOpen }) => {
   const checkedWidgets = useSelector(state => state.dashboard.checkedWidgets || {});
   const dispatch = useDispatch();
   
-  // Local state for managing checked status
+ 
   const [localCheckedWidgets, setLocalCheckedWidgets] = useState({ ...checkedWidgets });
 
   const handleCheckboxChange = (categoryId, widgetId, isChecked) => {
-    // Update local state with the new checked status
+ 
     setLocalCheckedWidgets(prevState => ({
       ...prevState,
       [widgetId]: isChecked,
