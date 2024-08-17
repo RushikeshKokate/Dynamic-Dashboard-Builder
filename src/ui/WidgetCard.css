@@ -1,0 +1,131 @@
+ 
+.widget-container {
+    padding: 20px;
+  }
+  
+  .category {
+    margin-bottom: 20px;  
+  }
+  
+  .category-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;  
+  }
+  
+  .widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+  }
+  
+  .widget-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    width: 200px;  
+  }
+  
+  .remove-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 85%;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c62828;
+  }
+
+  .addwidbtn{
+    border: 2px solid rgb(196, 195, 195);
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+    color: gray;
+    
+  }
+
+  .add-widget-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .in{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 5px;
+    height: 20px;
+  }
+  .text{
+    margin-bottom: 10px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 5px;
+    height: 50px;
+  }
+ 
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+   
+  }
+  
+ 
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px
+  }
+  
+ 
+  .popup-content input,
+  .popup-content textarea {
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+ 
+  .popup-content .addwidbtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  .popup-content .addwidbtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+   
+  

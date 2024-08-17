@@ -1,0 +1,55 @@
+  
+ {
+    "categories": [
+      {
+        "id": "1abc",
+        "name": "Sales Dashboard",
+        "widgets": [
+          {
+            "id": "a",
+            "name": "Sales Overview",
+            "text": "Displays sales data for the current month."
+          },
+          {
+            "id": "b",
+            "name": "Revenue Chart",
+            "text": "Shows a bar chart of revenue over the past year."
+          }
+        ]
+      },
+      {
+        "id": "2alnsl",
+        "name": "Marketing Dashboard",
+        "widgets": [
+          {
+            "id": "c",
+            "name": "Campaign Performance",
+            "text": "Tracks the performance of marketing campaigns."
+          },
+          {
+            "id": "d",
+            "name": "Lead Generation",
+            "text": "Displays the number of leads generated this month."
+          }
+        ]
+      },
+      {
+        "id": "3pasdandca",
+        "name": "Customer Support Dashboard",
+        "widgets": [
+          {
+            "id": "e",
+            "name": "Support Tickets",
+            "text": "Shows the number of support tickets opened and closed."
+          },
+          {
+            "id": "f",
+            "name": "Customer Feedback",
+            "text": "Displays recent customer feedback ratings."
+          }
+        ]
+      }
+    ]
+  }
+
+  

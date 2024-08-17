@@ -1,6 +1,6 @@
 .dashboard
 {
-    height: 93vh;
+    height: auto;
     background-color: rgb(227, 237, 250);  
 }
 
@@ -33,4 +33,10 @@
     border-radius: 5px;
     background-color: white;
     color: gray;
+}
+
+.backdrop{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
 }
